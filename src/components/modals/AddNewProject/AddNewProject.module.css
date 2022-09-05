@@ -1,0 +1,74 @@
+.projectData {
+    width: 320px;
+    margin: 0 auto;
+}
+.inputField {
+    background-color: var(--dark-background-color);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid var(--text-secondary-color);
+    width: 100%;
+    color: var(--text-primary-color);
+    font-size: 16px;
+    padding-left: 5px;
+}
+.inputField:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--border-color);
+}
+.inputField:hover {
+    border-bottom: 3px solid var(--border-color);
+}
+.inputField:first-child {
+    margin-bottom: 37px;
+}
+.label {
+    display: block;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 21px 0 0 0;
+}
+.label2 {
+    margin: 36px 0 0 0;
+}
+.labelInput {
+    margin: 21px 0 21px 0;
+}
+
+.selectField {
+    width: 100%;
+    background-color: var(--dark-background-color);
+    border: 2px solid var(--border-color);
+    color: var(--text-primary-color);
+    margin: 18px 0 0 0;
+    padding: 9px 14px 9px 27px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.selectProjectStatusField {
+    margin: 58px 0 0 0;
+}
+
+.modalButtons {
+    font-size: 32px;
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options div:hover {
+    background-color: var(--text-secondary-color);
+}

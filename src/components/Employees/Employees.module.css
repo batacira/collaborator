@@ -1,0 +1,70 @@
+.employees {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--page-background-color);
+    color: white;
+    gap: 30px;
+    padding: 40px;
+    height: 100vh;
+    width: 100%;
+}
+
+.employees-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+}
+
+.input-wrapper {
+    border: 1px solid var(--page-background-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.input-wrapper:hover {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid var(--border-color);
+}
+
+.input {
+    border: none;
+    width: 280px;
+    height: 24px;
+    background-color: var(--page-background-color);
+    color: white;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.input:focus {
+    border: none;
+    outline: none;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.input-search-icon-wrapper {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.search-labels-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.search-active-buttons {
+    display: flex;
+    gap: 20px;
+}

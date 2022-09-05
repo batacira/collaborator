@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": "./",
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@localization/*": ["./src/localization/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@reduxStore/*": ["./src/reduxStore/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@constants/*": ["./src/constants/*"],
+            "@elements/*": ["./src/elements/*"],
+            "@api/*": ["./src/api/*"],
+            "@hooks/*": ["./src/hooks/*"]
+        }
+    },
+    "include": ["src", "actions"],
+    "exclude": ["node_modules"]
+}

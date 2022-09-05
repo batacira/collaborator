@@ -1,0 +1,35 @@
+:root {
+    /* Colors */
+
+    --background-color: #7e879e;
+    --page-background-color: #525f7f;
+    --dark-background-color: #27293d;
+    --light-background-color: #ffffff;
+    --border-color: #1d8cf8;
+    --text-primary-color: #ffffff;
+    --text-secondary-color: #1d8cf8;
+    --text-dark-color: #7e879e;
+    --gray-color: #353750;
+
+    /* Profile page */
+
+    --pink-color: #e14eca;
+    --pink-soothing-color: #e7a8de;
+    --success-color: #00f2c3;
+    --green-color: #00f2c3;
+    --yellow-color: #e7eb0f;
+    --blue-hover-color: #24a5f0;
+
+    /* Modal */
+
+    --alarm-color: #fc030f;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 32px;
+}

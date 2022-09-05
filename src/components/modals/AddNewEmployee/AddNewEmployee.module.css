@@ -1,0 +1,38 @@
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.select_input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.select_label {
+    font-size: 16px;
+}
+
+.select {
+    border: none;
+    width: 250px;
+    height: 28px;
+    background-color: var(--page-background-color);
+    border-radius: 5px;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-primary-color);
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+}

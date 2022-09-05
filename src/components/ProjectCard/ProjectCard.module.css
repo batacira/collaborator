@@ -1,0 +1,67 @@
+.wrapper {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    width: 100%;
+    height: 232px;
+    background-color: var(--dark-background-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+
+.project-info {
+    width: 1052px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+}
+
+.title-wrapper {
+    margin-bottom: 35px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.left,
+.right {
+    width: 50%;
+    color: var(--text-primary-color);
+}
+
+.pale {
+    color: var(--text-dark-color);
+}
+
+.paragraph {
+    margin: 12px 0;
+}
+
+.active {
+    background-color: var(--green-color);
+    width: 36px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.inactive {
+    background-color: var(--alarm-color);
+    width: 36px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.cancelled {
+    background-color: var(--yellow-color);
+    width: 36px;
+    border-radius: 0px 6px 6px 0px;
+}
